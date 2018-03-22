@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace WhatsappDM.ViewModels
 {
-    public class HistoricalViewModel : BaseViewModel
+    public class HistoricalViewModel : ContentPage
     {
         public HistoricalViewModel()
         {

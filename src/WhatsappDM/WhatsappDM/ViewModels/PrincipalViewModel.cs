@@ -1,6 +1,8 @@
-﻿namespace WhatsappDM.ViewModels
+﻿using Xamarin.Forms;
+
+namespace WhatsappDM.ViewModels
 {
-    public class PrincipalViewModel : BaseViewModel
+    public class PrincipalViewModel : ContentPage
     {
         public PrincipalViewModel()
         {
