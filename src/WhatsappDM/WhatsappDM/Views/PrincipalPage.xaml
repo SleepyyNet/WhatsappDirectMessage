@@ -23,14 +23,10 @@
 
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" BackgroundColor="White" Padding="16,80,16,40" Spacing="10">
+                    
+                    <StackLayout Orientation="Horizontal"  Margin="0,80,0,0">
 
-                    <StackLayout Orientation="Horizontal">
-
-                        <Picker Title="Prefix" VerticalOptions="End" HeightRequest="40">
-                            <Picker.Items>
-                                <x:String>+1 Dominican Republic</x:String>
-                            </Picker.Items>
-                        </Picker>
+                        <Picker Title="Prefix" VerticalOptions="End" WidthRequest="70" ItemsSource="{Binding contries}">
 
                         <Entry VerticalOptions="End" Placeholder="Number" HorizontalOptions="FillAndExpand"/>
                     </StackLayout>
