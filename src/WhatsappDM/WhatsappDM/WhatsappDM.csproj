@@ -6,8 +6,14 @@
 
   <ItemGroup>
     <Compile Remove="Garbage\**" />
+    <Compile Remove="Models\**" />
+    <Compile Remove="Services\**" />
     <EmbeddedResource Remove="Garbage\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <EmbeddedResource Remove="Services\**" />
     <None Remove="Garbage\**" />
+    <None Remove="Models\**" />
+    <None Remove="Services\**" />
   </ItemGroup>
 
   <ItemGroup>
