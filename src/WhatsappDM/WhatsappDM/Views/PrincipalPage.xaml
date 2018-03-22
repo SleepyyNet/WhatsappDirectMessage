@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WhatsappDM.Views.PrincipalPage"
+             xmlns:vm="clr-namespace:WhatsappDM.ViewModels;"
+             Title="{Binding Title}">
+    <ContentPage.BindingContext>
+        <vm:PrincipalViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="ic_action_whatsapp"/>
+        <ToolbarItem Icon="ic_action_settings"/>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" BackgroundColor="White" Padding="16,80,16,40" Spacing="10">
+
+                    <StackLayout Orientation="Horizontal">
+
+                        <Picker Title="Prefix" VerticalOptions="End" HeightRequest="40">
+                            <Picker.Items>
+                                <x:String>+1 Dominican Republic</x:String>
+                            </Picker.Items>
+                        </Picker>
+
+                        <Entry VerticalOptions="End" Placeholder="Number" HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+
+                    <Label Text="Send message without adding" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                    <Button Margin="0,10,0,0" Text="OPEN WHATSAPP" BackgroundColor="{StaticResource Primary}" TextColor="White" Clicked="OpenExternalApp"/>
+
+                </StackLayout>
+            </ScrollView>
+            
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>
