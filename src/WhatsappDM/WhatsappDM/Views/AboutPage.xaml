@@ -52,14 +52,14 @@
                         <FormattedString>
                             <FormattedString.Spans>
                                 <Span Text="About me &#10; &#10;" FontAttributes="Bold" FontSize="18"/>
-            
+
                                 <Span Text="Email: &#10;" FontAttributes="Bold"/>
                                 <Span Text="cristopherviviecara025@gmail.com &#10;"/>
 
-                                <Span Text="Phone Number: &#10;" FontAttributes="Bold"/>
+                                <Span Text="&#10;Phone Number: &#10;" FontAttributes="Bold"/>
                                 <Span Text="+1 (809) 984-5274 &#10;"/>
 
-                                <Span Text="Website: &#10;" FontAttributes="Bold"/>
+                                <Span Text="&#10;Website: &#10;" FontAttributes="Bold"/>
                                 <Span Text="viviecar.com &#10;"/>
                                 
                             </FormattedString.Spans>
