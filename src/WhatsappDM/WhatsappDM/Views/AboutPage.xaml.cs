@@ -12,7 +12,6 @@ namespace WhatsappDM.Views
 		{
 			InitializeComponent ();
             Title = "About";
-           
 		}
 	}
 }
