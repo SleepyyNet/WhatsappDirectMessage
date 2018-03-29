@@ -11,23 +11,22 @@
     </ContentPage.BindingContext>
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Icon="ic_action_whatsapp"/>
-        <ToolbarItem Icon="ic_action_settings"/>
+        <ToolbarItem Icon="ic_action_whatsapp" Clicked="OpenEmpthyWhatsapp"/>
+        <ToolbarItem Icon="ic_action_settings" Clicked="OpenConfiguration"/>
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>
-
         <StackLayout Orientation="Vertical" Padding="16,80,16,40" Spacing="10">
 
             <StackLayout Orientation="Horizontal"  Margin="20,80,20,0">
 
-                <Picker Title="Prefix" VerticalOptions="End" HeightRequest="40">
+                <Picker x:Name="picPrefix" Title="Prefix" VerticalOptions="End" HeightRequest="40">
                     <Picker.Items>
                         <x:String>Dominican Republic</x:String>
                     </Picker.Items>
                 </Picker>
 
-                <Entry VerticalOptions="End" Placeholder="Phone Number" HorizontalOptions="FillAndExpand"/>
+                <Entry x:Name="entryNumber" VerticalOptions="End" Placeholder="Enter phone number..." HorizontalOptions="FillAndExpand"/>
             </StackLayout>
 
             <Label Text="Send message without adding" HorizontalOptions="Center" VerticalOptions="Center"/>
