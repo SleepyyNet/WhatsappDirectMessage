@@ -2,7 +2,7 @@
 
 A simple application to send message without adding contacts to your contact book.
 
-<img src="project-logo.png" align="left" width="192px" height="192px"/>
+<img src="src/WhatsappDM/WhatsappDM.Android/Resources/drawable/icon.png" align="left" width="192px" height="192px"/>
 <img align="left" width="0" height="192px" hspace="10"/>
 
 > Template files for writing maintanable GitHub projects. Make your repo pretty!
