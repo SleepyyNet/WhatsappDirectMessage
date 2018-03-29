@@ -1,4 +1,4 @@
-# WhatsappDirectMessage
+# Whatsapp Direct Message
 
 <img src="src/WhatsappDM/WhatsappDM.Android/Resources/drawable/icon.png" align="left" width="192px" height="192px"/>
 <img align="left" width="0" height="192px" hspace="10"/>
