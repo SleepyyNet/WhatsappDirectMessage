@@ -16,5 +16,15 @@ namespace WhatsappDM.Views
 		{
 			InitializeComponent ();
 		}
-	}
+
+        async void OpenConfiguration()
+        {
+            await Navigation.PushModalAsync(new NavigationPage(new ConfigurationPage()));
+        }
+
+        void OpenEmpthyWhatsapp()
+        {
+            Device.OpenUri(new Uri("whatsapp://chat"));
+        }
+    }
 }
